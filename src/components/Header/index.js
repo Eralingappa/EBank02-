@@ -5,6 +5,7 @@ import './index.css'
 
 const Header = props => {
   const remove = () => {
+    const {history} = props
     Cookies.remove('jwt-token')
     history.replace('/ebank/login')
   }

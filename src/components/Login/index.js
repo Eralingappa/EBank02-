@@ -76,9 +76,9 @@ class Login extends Component {
           <from className="from-el" onSubmit={this.BankLogin}>
             <h1 className="header">Welcome Back!</h1>
             <div className="inp-con">
-              <Label htmlFor="user" className="lab">
+              <label htmlFor="user" className="lab">
                 User ID
-              </Label>
+              </label>
               <input
                 id="user"
                 placeholder="Enter User ID"
@@ -88,9 +88,9 @@ class Login extends Component {
               />
             </div>
             <div className="inp-con">
-              <Label htmlFor="pin" className="lab">
+              <label htmlFor="pin" className="lab">
                 PIN
-              </Label>
+              </label>
               <input
                 placeholder="Enter Pin"
                 id="pin"

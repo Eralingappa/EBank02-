@@ -12,7 +12,7 @@ const Home = () => {
     <div className="h-con">
       <Header />
       <div className="hm">
-        <h1 className="heading"> Your flexbility our Excellent</h1>
+        <h1 className="heading"> Your Flexibility, Our Excellence</h1>
         <img
           src="https://assets.ccbp.in/frontend/react-js/ebank-digital-card-img.png"
           alt="digital card"
