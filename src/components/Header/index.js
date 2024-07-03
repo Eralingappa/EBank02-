@@ -14,7 +14,7 @@ const Header = props => {
     <nav className="nav-el">
       <Link to="/" className="link-el">
         <img
-          srcc="https://assets.ccbp.in/frontend/react-js/ebank-login-img.png"
+          src="https://assets.ccbp.in/frontend/react-js/ebank-logo-img.png "
           className="kt"
           alt="website logo"
         />

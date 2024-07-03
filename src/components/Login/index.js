@@ -60,7 +60,7 @@ class Login extends Component {
   render() {
     const {userId, pin, se, em} = this.state
     const token = Cookies.get('jwt_token')
-    if (token == !undefined) {
+    if (token !== undefined) {
       return <Redirect to="/" />
     }
     return (
@@ -105,7 +105,7 @@ class Login extends Component {
             </button>
 
             <div className="ct">
-              {se === true && <p className="ep">{en}</p>}
+              {se === true && <p className="ep">{em}</p>}
             </div>
           </from>
         </div>
