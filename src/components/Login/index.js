@@ -73,7 +73,7 @@ class Login extends Component {
               className="ima"
             />
           </div>
-          <from className="from-el" onSubmit={this.BankLogin}>
+          <form  className="from-el" onSubmit={this.BankLogin}>
             <h1 className="header">Welcome Back!</h1>
             <div className="inp-con">
               <label htmlFor="user" className="lab">
@@ -107,7 +107,8 @@ class Login extends Component {
             <div className="ct">
               {se === true && <p className="ep">{em}</p>}
             </div>
-          </from>
+          </form >
+          
         </div>
       </div>
     )
